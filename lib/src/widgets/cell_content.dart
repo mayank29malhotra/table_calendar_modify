@@ -81,6 +81,8 @@ class CellContent extends StatelessWidget {
           AnimatedContainer(
             duration: duration,
             margin: margin,
+            height: 25,
+            width: 25,
             padding: padding,
             decoration: calendarStyle.selectedDecoration,
             alignment: alignment,
